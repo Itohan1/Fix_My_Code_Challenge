@@ -16,15 +16,15 @@ class square():
 
     def area_of_my_square(self):
         """ Area of the square """
-        return self.width * self.height
+        return (self.width * self.height)
 
     def PermiterOfMySquare(self):
         """Look my square, it’s perfect? No? Should I change something?"""
-        return (self.width * 2) + (self.height * 2)
+        return ((self.width * 2) + (self.height * 2))
 
     def __str__(self):
         """Look my square, it’s perfect? No? Should I change something?"""
-        return "{}/{}".format(self.width, self.height)
+        return ("{}/{}".format(self.width, self.height))
 
 
 if __name__ == "__main__":
